@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+h1, h2, h3{
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+/* Formulaire */
+
+input.ng-pristine{
+    border: 1px gray dashed;
+}
+
+input.ng-valid{
+    border-bottom: green 3px solid;
+}
+
+input.ng-invalid{
+    border-bottom: red 3px solid;
+}
+
+input.ng-touched{
+    border-top: orange 3px solid;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}

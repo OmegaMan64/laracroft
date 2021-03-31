@@ -1,0 +1,14 @@
+<h2>L'inde</h2>
+<section>
+<article *ngFor="let t of tombraiderServ.tombraider" (click)="logTombraider(t)">
+    <div *ngIf="t.statu == 'inde'">
+    <h3>{{ t.nom }}</h3>
+    <img [src]="t.img" [alt]="t.description">
+    <p>{{ t.description }}</p>
+    <ul>
+        <li>Statu : {{ t.statu }}</li>
+        <li>Taille : {{ t.taille }}</li>
+    </ul>
+</div>
+</article>
+</section>

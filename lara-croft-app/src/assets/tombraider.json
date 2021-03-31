@@ -1,0 +1,7 @@
+[
+    {"nom":"Minakshi", "description":"c'est un temple que je souhaite visité", "statu":"inde", "taille":"52m", "img":"assets/img/1.jpg"},
+    {"nom":"Brihadesvara", "description":"c'est un temple déjà visité", "statu":"inde", "taille":"66m", "img":"assets/img/2.jpg"},
+    {"nom":"Chichen Itza", "description":"c'est un temple ou j'ai rencontré quelque méchant", "statu":"mexique", "taille":"30m", "img":"assets/img/3.jpg"},
+    {"nom":"Pyramide du soleil", "description":"c'est un temple ou j'ai rencontré quelque méchant", "statu":"mexique", "taille":"65m", "img":"assets/img/4.jpg"}
+    
+ ]

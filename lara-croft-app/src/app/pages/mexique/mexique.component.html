@@ -1,0 +1,14 @@
+<h2>Mexique</h2>
+<section>
+<article *ngFor="let t of tombraiderServ.tombraider">
+    <div *ngIf="t.statu == 'mexique'">
+    <h3>{{ t.nom }}</h3>
+    <img [src]="t.img" [alt]="t.description">
+    <p>{{ t.description }}</p>
+    <ul>
+        <li>Statu : {{ t.statu }}</li>
+        <li>Taille : {{ t.taille }}</li>
+    </ul>
+</div>
+</article>
+</section>

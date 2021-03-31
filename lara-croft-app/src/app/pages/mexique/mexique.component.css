@@ -1,0 +1,8 @@
+section{
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(44,125,52,1) 100%);
+}
+
+img{
+    width: 400px;
+}
